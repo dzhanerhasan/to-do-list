@@ -1,0 +1,35 @@
+.project-form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+}
+
+.project-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdba74;
+    padding: 10px;
+    height: 30%;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.project-form h1 {
+    color: white;
+    text-align: center;
+}
+
+#title, #description, #add-project {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#add-project {
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
